@@ -1,0 +1,19 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "xlrd>=2.0.2",
+    # For Groq LLM support with LangChain (optional)
+    "groq>=0.4.0",
+    "langchain-groq>=0.0.5",
+    "langchain>=1.4.6",
+    "faiss-cpu>=1.15.1",
+    "load-dotenv>=0.1.0",
+    "sentence-transformers>=3.0.0",
+    "rank-bm25>=0.2.2",
+]

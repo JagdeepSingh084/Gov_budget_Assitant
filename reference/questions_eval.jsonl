@@ -1,0 +1,182 @@
+{"question_id": "E01", "lang": "en", "question": "What was the allocation for Menstrual Hygiene in Girls (KISHORI) in Delhi's 2023-24 gender budget?",  "lang": "en",
+  "answer": "Rs 233,000 thousand (equivalent to Rs 233 crore) was allocated for Menstrual Hygiene in Girls (KISHORI) in Delhi's 2023-24 gender budget.", 
+  "source_files": [
+    "gender_budget_2023-24.pdf"
+  ],
+  "source_location": "page 1",
+  "unit": "thousands",
+  "tests": "Identified the Menstrual Hygiene in Girls (KISHORI) row in the gender_budget_2023-24.pdf table (page 1). The Annual Budget column for 2023‑24 shows 233000, and the document notes figures are in IN THOUSANDS, so 233 000 × 1,000 = Rs 233 crore."}
+
+{"question_id": "E02", "lang": "en", "question": "What did Delhi allocate in 2026-27 for implementation of the Protection of Women from Domestic Violence Act, 2005?",   "lang": "en",
+  "answer": "Delhi allocated Rs 29,600 thousand (approximately Rs 29.6 crore) for the implementation of the Protection of Women from Domestic Violence Act, 2005 in 2026-27.",
+  "source_files": [
+    "gender_budget_2026-27.pdf"
+  ],
+  "source_location": "Page 3, row for Implementation of Protection of Women Domestic Violence Act 2005",
+  "unit": "thousand",
+  "tests": "Identified the row on page 3 of gender_budget_2026-27.pdf showing the figure 29600 under the 2026-27 column; converted from 'IN THOUSANDS' to crore for clarity."
+}
+{"question_id": "E03", "lang": "en", "question": "What was Delhi's outlay for Ladli Yojna in 2022-23?",  "lang": "en",
+  "answer": "Delhi allocated Rs 100 crore for the Ladli Yojna in the 2022‑23 budget.",
+  "source_files": [
+    "gender_budget_2022-23.pdf"
+  ],
+  "source_location": "Page 4, row with Ladli Yojna (values 1,000,000 thousand)",
+  "unit": "crore",
+  "tests": "Identified the Ladli Yojna entry on page 4 of gender_budget_2022-23.pdf showing 1,000,000 (in thousands) for the 2022‑23 Revised Estimates/Annual Budget. Converted 1,000,000 × 1,000 = 1,000,000,000 Rs, which equals 100 crore."
+}
+
+{"question_id": "E04", "lang": "en", "question": "How much was allocated to Mission Shakti in the Union Gender Budget Statement for 2023-24 (BE)?", 
+  "lang": "en",
+  "answer": "Rs 85 crore was allocated to Mission Shakti in the Union Gender Budget Statement for 2023-24 (BE).",
+  "source_files": [
+    "MRF_13_Union_Budget.csv"
+  ],
+  "source_location": "row with Scheme 'Mission Shakti', column '2023-2024 Budget Estimates'",
+  "unit": "crore",
+  "tests": "Identified the Union Gender Budget Statement entry for Mission Shakti in MRF_13_Union_Budget.csv; the 2023-2024 Budget Estimates column shows 85, and the document’s native unit is Rs crore, giving Rs 85 crore."
+}
+
+{"question_id": "E05", "lang": "en", "question": "What is the grand total of Part A and Part B in the Union Gender Budget Statement for 2023-24 (BE)?",   "lang": "en",
+  "answer": "The grand total of Part A and Part B in the Union Gender Budget Statement for 2023‑24 (BE) is Rs 223,219.75 crore.",
+  "source_files": [
+    "MRF_13_Union_Budget.csv"
+  ],
+  "source_location": "row with Category 'Grand Total (PART A + PART B)' showing 2023-2024 Budget Estimates",
+  "unit": "crore",
+  "tests": "Identified the Grand Total (PART A + PART B) row in MRF_13_Union_Budget.csv and read the 2023-2024 Budget Estimates column, which lists 223219.75 (in Rs crore)."
+}
+}
+{"question_id": "E06", "lang": "en", "question": "In which financial year did the Government of India first introduce the Gender Budget Statement in the Union Budget?,  "lang": "en",
+  "answer": "The Government of India first introduced the Gender Budget Statement in the Union Budget in the financial year 2005-06.",
+  "source_files": [
+    "stat20.xls",
+    "14-Gender_Budget.pdf"
+  ],
+  "source_location": "stat20.xls Note; page 9 of 14-Gender_Budget.pdf",
+  "unit": null,
+  "tests": "Identified statements in stat20.xls and 14-Gender_Budget.pdf indicating the Gender Budget Statement was first introduced in FY 2005-06, confirming the answer."
+}
+
+{"question_id": "E07", "lang": "en", "question": "Under the Bihar scheme to prevent child marriage, how much is given to a daughter at the time of marriage, and what is the household income ceiling?",   "lang": "en",
+  "answer": "The scheme provides Rs 5,000 to the daughter at the time of marriage, and it is available to families whose annual household income does not exceed Rs 1 lakh.",
+  "source_files": [
+    "17107782611749468962.pdf"
+  ],
+  "source_location": "Page 22",
+  "unit": "rupees",
+  "tests": "Identified the Mukhyamantri Kanya Vivah Yojana description on page 22 of the Bihar gender‑budget PDF, which states a Rs 5,000 benefit for daughters and specifies eligibility for BPL or marginalised families with an annual income ceiling (interpreted as Rs 1 lakh from the context)."
+}
+
+{"question_id": "E08", "lang": "en", "question": "According to the Bihar gender budget, how many women and girls are there in the state?",   "lang": "en",
+  "answer": "There are 498.21 lakh women and girls in Bihar according to the gender budget.",
+  "source_files": [
+    "17107782611749468962.pdf"
+  ],
+  "source_location": "page 8",
+  "unit": "lakh",
+  "tests": "Identified the statement on page 8 of the Bihar gender budget PDF that cites \"Human development is dependent on empowerment of 498.21 lakh women and girls (Census 2011)\" and extracted the figure as the total count of women and girls in the state."
+}
+
+{"question_id": "E09", "lang": "hi", "question": "दिल्ली के 2022-23 जेंडर बजट में किशोरी योजना के लिए कितनी राशि आवंटित की गई थी?", "lang": "hi",
+  "answer": "Rs 210,000 thousand (equivalent to Rs 21 crore) was allocated to the Kishori (Menstrual Hygiene in Girls) scheme in Delhi’s 2022‑23 gender budget.",
+  "source_files": [
+    "gender_budget_2022-23.pdf"
+  ],
+  "source_location": "page 1, row \"Menstrual Hygiene in Girls (KISHORI)\"",
+  "unit": "thousands",
+  "tests": "Identified the Kishori scheme row on page 1 of gender_budget_2022-23.pdf showing three figures (96000 | 210000 | 210000). The third figure corresponds to the Annual Budget for 2022‑23, i.e., 210,000 in the document’s ‘IN THOUSANDS’ unit, which equals Rs 210,000,000 or Rs 21 crore."
+}
+
+{"question_id": "E10", "lang": "hi", "question": "बिहार की मुख्यमंत्री कन्या उत्थान योजना के तहत कन्या के जन्म पर कितनी राशि दी जाती है?", {
+  "question": "बिहार की मुख्यमंत्री कन्या उत्थान योजना के तहत कन्या के जन्म पर कितनी राशि दी जाती है?",
+  "lang": "hi",
+  "answer": "Rs 2,000 is provided to the mother/father/guardian at the birth of a girl child under the Mukhyamantri Kanya Utthan Yojana.",
+  "source_files": [
+    "17107782611749468962.pdf"
+  ],
+  "source_location": "Page 22",
+  "unit": "rupees",
+  "tests": "Identified the scheme description on page 22 of the PDF where it states that at birth of a girl child, Rs 2000 is given through DBT; extracted the amount and confirmed it applies to the birth incentive."
+}
+
+{"question_id": "E11", "lang": "en", "question": "What was Delhi's allocation for Ladli Yojna in 2019-20?",   "lang": "en",
+  "answer": "The allocation for Ladli Yojna in Delhi for the fiscal year 2019-20 is not provided in the available documents.",
+  "source_files": [],
+  "source_location": "Not found in provided sources",
+  "unit": null,
+  "tests": "Searched all listed source files for any mention of Ladli Yojna and the fiscal year 2019-20; only a reference appears in gender_budget_2026-27.pdf for a later year, so no 2019-20 figure is available."
+}
+
+{"question_id": "E12", "lang": "hi", "question": "दिल्ली के 2018-19 जेंडर बजट में लाडली योजना के लिए कितना आवंटन किया गया था?", {
+  "question": "दिल्ली के 2018-19 जेंडर बजट में लाडली योजना के लिए कितना आवंटन किया गया था?",
+  "lang": "hi",
+  "answer": "The allocation for the Ladli Yojna in Delhi’s 2018‑19 gender budget is not provided in the available documents.",
+  "source_files": [],
+  "source_location": "",
+  "unit": null,
+  "tests": "Checked gender_budget_2024-25.pdf, gender_budget_2026-27.pdf and other listed sources; none contain a 2018‑19 Delhi allocation for Ladli Yojna, so the answer notes the data is unavailable."
+}
+
+{"question_id": "E13", "lang": "en", "question": "What is the total gender budget allocation for Kerala in 2024-25?", {
+  "question": "What is the total gender budget allocation for Kerala in 2024-25?",
+  "lang": "en",
+  "answer": "The provided documents do not contain any data on Kerala’s gender budget allocation for 2024‑25, so the total cannot be determined from the given sources.",
+  "source_files": [],
+  "source_location": "",
+  "unit": null,
+  "tests": "Checked all supplied source excerpts (gender_budget_2024-25.pdf and 14-Gender_Budget.pdf) which pertain to Odisha and national tables; no mention of Kerala was found, thus answer states data unavailable."
+}
+
+{"question_id": "E14", "lang": "en", "question": "What is Delhi's total education budget for 2024-25?", {
+  "question": "What is Delhi's total education budget for 2024-25?",
+  "lang": "en",
+  "answer": "Delhi's total education budget for 2024-25 is Rs 1,776.7 crore (Rs 17,767,000 thousand) as shown in the Annual Budget column.",
+  "source_files": [
+    "gender_budget_2024-25.pdf"
+  ],
+  "source_location": "page 7, TOTAL row",
+  "unit": "crore",
+  "tests": "Identified the TOTAL row on page 7 of gender_budget_2024-25.pdf which lists three figures (Revised 2023‑24, Revised 2024‑25, Annual Budget 2024‑25). The third figure, 17,767,000, is in 'IN THOUSANDS' as noted in the document header, so converting to crore (divide by 100) gives 1,776.7 crore. This represents Delhi's overall education outlay for FY 2024‑25."
+}
+
+{"question_id": "E15", "lang": "en", "question": "How much was allocated to the Mahila Samriddhi Yojana in the Odisha gender budget 2024-25?",   "lang": "en",
+  "answer": "The Odisha gender budget 2024‑25 does not list an allocation for the Mahila Samriddhi Yojana.",
+  "source_files": [
+    "14-Gender_Budget.pdf"
+  ],
+  "source_location": "pages 2,10,25,28 – no mention of Mahila Samriddhi Yojana in the provided excerpts",
+  "unit": null,
+  "tests": "Searched all provided excerpts from 14-Gender_Budget.pdf (Odisha gender budget) for the term 'Mahila Samriddhi Yojana' and related variants; the scheme is not present, so the answer states that the allocation is not listed."
+}
+
+{"question_id": "E16", "lang": "en", "question": "What percentage of Bihar's total state budget for 2024-25 was the gender budget?", ,
+  "lang": "en",
+  "answer": "The provided documents do not contain the figures needed to calculate the percentage of Bihar's total state budget for 2024-25 that was allocated to the gender budget.",
+  "source_files": [
+    "17107782611749468962.pdf"
+  ],
+  "source_location": "page 12",
+  "unit": "%",
+  "tests": "Searched the Bihar gender budget PDF (17107782611749468962.pdf) for any tables or statements giving total state outlay and gender‑budget allocation for FY 2024‑25. The excerpt only mentions the purpose of gender budgeting without numeric amounts, so the percentage cannot be derived from the available context."
+}
+
+{"question_id": "E17", "lang": "en", "question": "What was Delhi's allocation for Ladli Yojna in 2012-13?",   "lang": "en",
+  "answer": "The provided context does not contain information regarding Delhi's allocation for Ladli Yojna in 2012-13. The only reference to 'Ladli Yojna' is in the gender_budget_2026-27.pdf for the 2026-27 fiscal year.",
+  "source_files": [
+    "gender_budget_2026-27.pdf"
+  ],
+  "source_location": "Page 2",
+  "unit": null,
+  "tests": "Searched all provided context for 'Ladli Yojna' and '2012-13'. The term 'Ladli Yojna' appears only in gender_budget_2026-27.pdf with figures for 2026-27. The stat20.xls file contains data for 2012-13 but does not list 'Ladli Yojna' or specific Delhi allocations for that scheme."
+}
+
+{"question_id": "E18", "lang": "en", "question": "In the Odisha gender budget 2024-25, how much is allocated to Part A (gender-specific) and Part B (gender-sensitive)?",   "lang": "en",
+  "answer": "In the Odisha gender budget 2024-25, Rs 1,787,841.23 Lakh is allocated to Part A (gender-specific) and Rs 5,774,450.52 Lakh is allocated to Part B (gender-sensitive).",
+  "source_files": [
+    "14-Gender_Budget.pdf"
+  ],
+  "source_location": "Page 21, Table 3.1 Total Allocation of Gender Budget under Part A and Part B",
+  "unit": "Rs. In Lakh",
+  "tests": "The answer was derived from Table 3.1 on Page 21 of the source document, which explicitly lists the 2024-25 BE allocations for Gender-Specific (Part A) as 1787841.23 and Gender Sensitive (Part B) as 5774450.52. These figures are corroborated by the narrative text on Page 22 and Page 28, as well as the Executive Summary on Page 10 (though the Executive Summary contains a typo swapping the values, the detailed tables and specific section narratives confirm the correct assignment: Part A is the smaller, 100% specific allocation, and Part B is the larger, >30% sensitive allocation)."
+}
